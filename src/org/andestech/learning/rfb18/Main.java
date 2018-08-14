@@ -101,6 +101,26 @@ data = 'n';
 
         }
 
+       // Ответы на задания
+       // mult table
+
+       int M0=1, M1 = 10;
+
+        System.out.print("\t");
+       for(int i=M0; i<=M1; i++ ) System.out.print(i + "\t");
+        System.out.print("\n");
+
+        for(int i=M0; i<=M1; i++ )
+        {
+            System.out.print(i + "\t");
+            for(int k=M0; k<=M1; k++ )
+            {
+                System.out.print(i*k + "\t");
+            }
+            System.out.println();
+        }
+
+
        // System.out.println(i);
     }
 
